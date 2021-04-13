@@ -7,9 +7,9 @@ body {
 }
 h1 {
   text-decoration: underline;
+  text-align: center;
 }
 .box {
-  text-align: center;
   background-color: white;
   background-position: center;
   display: block;
