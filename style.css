@@ -5,9 +5,14 @@ body {
   background-size: cover;
   background-position: center;
 }
+#grid {
+  border-bottom: 2px solid black;
+  display:grid;
+}
+
 h1 {
-  text-decoration: underline;
   text-align: center;
+  font-weight: lighter;
 }
 .box {
   background: white center;
@@ -18,12 +23,16 @@ h1 {
   margin-right: auto;
   width: 50%;
   height: 50%;
+  box-shadow: 0 0 20px gray;
 }
 a{
-  color:blue;
+  color:gray;
   transition: background-color .5s;
 }
 a:hover{
-  color: gray;
+  color: black;
   background-color: powderblue;
+}
+ol {
+  margin : 1.5em
 }
